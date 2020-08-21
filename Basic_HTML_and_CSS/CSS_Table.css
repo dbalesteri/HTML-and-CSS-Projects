@@ -1,0 +1,22 @@
+table {
+    border: 2px solid red;
+}
+
+td:hover {
+    background-color: silver;
+    text-decoration: underline;
+}
+
+tr, th {
+    background-color: aquamarine;
+}
+
+tr.DK, td {
+    background-color: yellow;
+    color: red;
+}
+
+tr.Luigi, td.Luigi {
+    background-color: green;
+    color: blue;
+}
