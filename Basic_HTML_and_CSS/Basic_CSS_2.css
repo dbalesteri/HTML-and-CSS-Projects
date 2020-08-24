@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .font_hulk {
     background-color:blueviolet;
     color: green;
@@ -7,4 +8,15 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align:center;
     text-shadow: 10px 10px #000000;
+=======
+.font_hulk {
+    background-color:blueviolet;
+    color: green;
+    text-decoration:solid;
+    font-weight:900;
+    font-size:2in;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    text-shadow: 10px 10px #000000;
+>>>>>>> 2f40bd38a58fc8aba0525ab15e17df934513411d
 }
