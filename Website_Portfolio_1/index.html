@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+    <head>
+        <title>
+            Dan Balesteri
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./Stylesheet/Website_Portfolio_CSS.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <script src="JS/Website_Portfolio.js" defer></script>
+    </head>
+
+<!--Body-->
+
+<body class="Background">
+
+<!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Slideshow">Slideshow</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
+    </div>
+
+<!--Home-->
+    <br> <!-- Breaks inserted to add space between navbar and first heading-->
+    <br>
+
+<!--Video-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video"> <!--Video to play automatically looped muted-->
+            <source src="Stylesheet/Video/Typing.mp4" type="video/mp4">
+            Your browser does not support HTML5 video. <!--Display message if video can't play-->
+        </video>
+    </div>
+
+<!-- Video Text-->
+    <div class="Video_Text">
+        <h1 style="color:white;">Dan Balesteri's Portfolio</h1>
+            <p>
+                <strong>
+                    <center>
+                        <q>Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away.
+                        </q>	
+                        <br><br><span class="author">-Antoine de Saint-Exupery</span><br>
+                        <br>
+                        My name is Dan Balesteri. Welcome to my portfolio website. On it I will tell you about my background and experience.<br>
+                        <br>Thank you for stopping by and enjoy! 
+                    </center>
+                </strong>
+            </p>
+    </div>
+
+<!-- Slideshow section -->
+<div id="Slideshow">
+    <div id="Slideshow_Background"> 
+      <div id="Slideshow_Container">
+        
+		<div class="mySlides fade">
+          <div class="Slide_Number">1 / 6</div>
+            <img class="Slide_Show_Images" src="Stylesheet/Images/dan.png">
+              <div class="text">I'm available to assist you on your project!</div>
+        </div>
+        
+		<div class="mySlides fade">
+          <div class="Slide_Number">2 / 6</div>
+            <img class="Slide_Show_Images" src="Stylesheet/Images/HTML_CSS_and_JavaScript.jpeg" style="width:100%">
+              <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="Slide_Number">3 / 6</div>
+            <img class="Slide_Show_Images" src="Stylesheet/Images/Python.png" style="width:100%">
+              <div class="text">the popular programming language Python,</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="Slide_Number">4 / 6</div>
+            <img class="Slide_Show_Images" src="Stylesheet/Images/C_Sharp_and_Dot_NET.png" style="width:100%">
+              <div class="text">C#, .NET Framework, ASP.NET, MVC,</div>
+        </div>
+
+		<div class="mySlides fade">
+	      <div class="Slide_Number">5 / 6</div>
+			<img class="Slide_Show_Images" src="Stylesheet/Images/SQL_and_Database.jpg" style="width:100%">
+              <div class="text">back end development, databases and SQL.</div>
+			</div>
+
+		<div class="mySlides fade">
+		  <div class="Slide_Number">6 / 6</div>
+			<img class="Slide_Show_Images" src="Stylesheet/Images/Coding_1.jpg" style="width:100%">
+			  <div class="text"> 
+				<a onclick="openForm()" href="#Contact" style="color:white;">Contact me now!</a>
+			  </div>
+	    </div>
+	
+		  <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+		
+	  </div>
+  <br>
+
+      <div style="text-align:center">
+ 
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+		<span class="dot" onclick="currentSlide(4)"></span> 
+		<span class="dot" onclick="currentSlide(5)"></span> 
+		<span class="dot" onclick="currentSlide(6)"></span> 
+
+      </div>
+    </div>
+  </div>
+
+<!--About Section-->
+    <div class="Row" id="About">
+        <div class="Column_2"> <!--Right Column-->
+            <img src="Stylesheet/Images/Development.jpg" alt="Laptop">
+        </div>
+
+        <div class="Column_1"> <!--Left Column-->
+            <h1>About</h1> 
+            <p>I am a software devloper and Phoenix resident, who's passionate about a career in programming! 
+                <br>
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">
+                The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                <br>
+                <br>
+                I am a full-stack developer and would love to partner together on your next project! <a href="#Contact" onclick="openForm()">Contact</a> me below!</p>
+        </div>
+    </div>
+
+<!--GitHub Section-->
+    <div class="Row" id="GitHub">
+        <div class="Column_1"> <!--Left Column-->
+            <h1>GitHub</h1>
+            <p>You can view my coding projects on my GitHub profile here:<br>
+                <center>
+                    <a href="https://github.com/dbalesteri" target="_blank">Dan Balesteri's GitHub</a>
+                </center>
+            </p>
+        </div>
+
+        <div class="Column_2"> <!--Right Column-->
+            <a href="https://github.com/dbalesteri" target="_blank"><img src="Stylesheet/Images/GitHub.png" alt="GitHub"></a>
+        </div>
+    </div>
+
+<!-- Contact section -->
+<div id="Contact"> 
+    <button onclick="openForm()" class="Pop_Up_Button" id="contact_button"> CONTACT </button>
+	    <div class="form-popup" id="myForm">
+            <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                <h1>Contact</h1>
+                <label for="name"><b>Name:</b></label>
+                    <input type="text" placeholder="Type your name here" name="name" required>
+                <label for="phone"><b>Phone:</b></label>
+                    <input type="text" placeholder="Enter your phone number here" name="phone">
+                <label for="email"><b>Email:</b></label>		
+                    <input type="text" placeholder="Type your email address here" name="email" required>
+                <label for="message"><b>Message:</b></label>
+                    <input type="text" placeholder="Type your message here" name="message">
+    
+                <button type="submit" class="submit" id="submit_button">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+  </div>
+
+
+<!--Footer Section-->
+    <footer>
+        <p>
+            <center>-Student of:  <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>-</center><br>
+        </p>
+    </footer>
+
+</body>
+
+</html>
