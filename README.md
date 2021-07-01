@@ -29,7 +29,7 @@ This repository contains simple one page websites utilizing HTML, CSS, and some 
 * <a name="academy-cinema"></a>Academy Cinemas:
   This one-page site was to demonstrate the use of bootstrap 4 to make visually appealing layouts. Uses many of their elements available to make for a simple interactive and informative site.
   
-  [View Project Here!](https://github.com/dbalesteri/HTML-and-CSS-Projects/tree/master/Website_Portfolio_1https://github.com/dbalesteri/HTML-and-CSS-Projects/tree/master/bootstrap4_project)
+  [View Project Here!](https://github.com/dbalesteri/HTML-and-CSS-Projects/tree/master/bootstrap4_project)
 
 ### Side Projects:
 
